@@ -1,0 +1,7 @@
+s1=input("Enter the first collection of integers: ")
+s2=input("Enter the second collection of integers: ")
+s1=set(map(int,s1.split()))
+s2=set(map(int,s2.split()))
+print('Lists are of same length - ',len(s1)==len(s2))
+print('The collection sums to same value - ',sum(s1)==sum(s2))
+print('Are there common elements - ', bool(len(s1&s2)))
