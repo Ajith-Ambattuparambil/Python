@@ -1,5 +1,0 @@
-s=input("Enter the colors in a comma separated list: ")
-color=list(s.split(','))
-c=len(color)
-print(c)
-print(color[0:c:2])
