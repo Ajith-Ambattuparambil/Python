@@ -1,0 +1,4 @@
+import re
+
+m = re.search( r'\bthe ', 'A bell in the well', re.I)
+if m is not None: print( m.group() )

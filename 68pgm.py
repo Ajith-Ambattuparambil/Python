@@ -1,5 +1,4 @@
-'''Create a class Time with private attributes hour, minute and second
-. Overload *+' operator to find sum of 2 time.'''
+'''Create a class Time with private attributes hour, minute and second. Overload '+' operator to find sum of 2 time.'''
 
 class Time:
     def __init__(self,h=0,m=0,s=0):
